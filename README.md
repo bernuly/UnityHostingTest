@@ -8,4 +8,5 @@ https://medium.com/@aboutin/host-unity-games-on-github-pages-for-free-2ed6b4d9c3
 Note, if there are files starting with '_', there needs to be a `.nojekyll` file in the root folder or github pages gives a 404.
 
 
-
+## Debugging
+If you get `Uncaught ReferenceError: unityFramework is not defined`, disable compression in the Player settings.
